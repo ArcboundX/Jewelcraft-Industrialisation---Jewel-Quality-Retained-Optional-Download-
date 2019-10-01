@@ -1,0 +1,16 @@
+{
+   "Name": "FabergeBench (for CFR)",
+   "Author": "Undare",
+   "Description": "Jewelcraft Faberge Bench.",
+   "Version": "1.5.3",
+   "UniqueID": "Undare.jewelcraftFaberge",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "Undare.jewelcraftItems",
+      "IsRequired": true,
+   },
+]
+}

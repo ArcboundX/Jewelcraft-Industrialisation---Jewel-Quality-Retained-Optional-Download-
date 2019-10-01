@@ -1,0 +1,350 @@
+{
+   "name": "Jewelcrafting Main Machine",
+   "author": "Undare",
+   "version": "1.0.5",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "legacy": "Undare.Jewelcrafting.jewelcraftingtables.json",
+		   "name": "Jewelcrafting Table",
+		   "description": "Used for crafting valuable jewelry out of gold and jewels. (GoldBar+Jewel)",
+		   "category": "Crafting",
+		   "crafting" : "336 2 62 1 68 1 64 1 60 1",
+		   "pulsate": false,
+		   "texture": "CrucibleSheet.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 2000,
+		   "readyindex": 8,
+		   "frames": 7,
+		   "starter":
+			{
+				"index": 336,
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Golden Amethyst Pin",
+					//"index": 12500,
+					"time": 700, //1day
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Pin",
+					//"index": 12500,
+					"time": 700, //1day
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Pin",
+					//"index": 12500,
+					"time": 700, //1day
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Pin",
+					//"index": 12500,
+					"time": 700, //1day
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Bracelet",
+					"time": 700,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Bracelet",
+					"time": 700,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Bracelet",
+					"time": 700,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Bracelet",
+					"time": 700,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Earrings",
+					"time": 700,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Earrings",
+					"time": 700,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Earrings",
+					"time": 700,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Earrings",
+					"time": 700,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Ring",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Ring",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Ring",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Ring",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Brooch",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Brooch",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Brooch",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Brooch",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Ring",
+					"time": 1000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Ring",
+					"time": 1000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Ring",
+					"time": 1000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Ring",
+					"time": 1000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				}
+				
+			]
+	   }
+   ]
+   
+   
+}

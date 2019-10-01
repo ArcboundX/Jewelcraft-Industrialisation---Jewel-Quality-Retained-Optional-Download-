@@ -1,0 +1,3759 @@
+{
+   "name": "Egg Faberge Machine",
+   "author": "Undare",
+   "version": "1.0.5",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "legacy": "Undare.Jewelcrafting.fabergebench.json",
+		   "name": "Faberge Bench",
+		   "description": "Used for crafting ornamental eggs made of gold and jewels. (GoldBar+Egg+Jewel)",
+		   "category": "Crafting",
+		   "crafting" : "335 6 709 4 336 2",
+		   "pulsate": false,
+		   "texture": "FaberageBenchSheet.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 5000,
+		   "readyindex": 6,
+		   "frames": 5,
+		   "starter":
+			{
+				"index": -5,
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Golden Faberge",
+					"time": 430,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 336,
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Faberge",
+					"time": 430,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 336,
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Faberge",
+					"time": 430,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 336,
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Faberge",
+					"time": 430,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 336,
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Faberge",
+					"time": 800,
+ 					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Faberge",
+					"time": 800,
+ 					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Faberge",
+					"time": 800,
+ 					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Amethyst Faberge",
+					"time": 800,
+ 					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 66,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Topaz Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 68,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aquamarine Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 62,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Emerald Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 60,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ruby Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 64,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Diamond Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 72,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 541,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 541,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 541,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 541,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Faberge",
+					"time": 720,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 538,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Faberge",
+					"time": 720,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 538,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Faberge",
+					"time": 720,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 538,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Faberge",
+					"time": 720,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 538,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 123,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 123,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 123,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 123,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 540,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 540,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 540,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 540,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 570,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 570,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 570,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 570,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 539,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 539,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 539,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 539,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 542,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 542,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 542,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 542,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 566,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 566,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 566,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 566,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 543,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 543,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 543,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 543,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 122,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 122,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 122,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 122,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 121,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 121,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 121,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 121,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 86,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 86,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 86,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 86,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 544,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 544,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 544,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 544,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 577,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 577,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 577,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 577,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 565,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 565,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 565,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 565,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 82,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 82,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 82,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 82,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 545,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 545,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 545,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 545,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 84,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 84,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 84,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 84,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 546,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 546,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 546,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 546,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 561,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 561,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 561,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 561,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 569,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 569,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 569,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 569,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 547,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 547,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 547,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 547,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 573,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 573,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 573,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 573,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 70,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 70,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 70,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 70,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 549,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 549,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 549,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 549,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 548,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 548,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 548,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 548,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 563,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 563,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 563,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 563,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 550,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 550,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 550,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 550,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 554,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 554,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 554,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 554,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 571,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 571,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 571,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 571,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 551,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 551,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 551,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 551,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 552,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 552,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 552,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 552,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 567,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 567,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 567,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 567,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Faberge",
+					"time": 760,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 574,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Faberge",
+					"time": 760,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 574,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Faberge",
+					"time": 760,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 574,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Faberge",
+					"time": 760,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 574,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 555,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 555,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 555,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 555,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 553,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 553,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 553,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 553,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 575,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 575,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 575,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 575,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 560,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 560,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 560,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 560,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 564,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 564,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 564,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 564,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 556,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 556,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 556,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 556,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 557,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 557,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 557,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 557,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 559,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 559,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 559,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 559,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 568,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 568,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 568,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 568,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Faberge",
+					"time": 640,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 576,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Faberge",
+					"time": 640,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 576,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Faberge",
+					"time": 640,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 576,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Faberge",
+					"time": 640,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 576,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 572,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 572,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 572,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 572,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Faberge",
+					"time": 1000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 578,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Faberge",
+					"time": 1000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 578,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Faberge",
+					"time": 1000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 578,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Faberge",
+					"time": 1000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 578,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 558,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 558,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 558,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 558,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Faberge",
+					"time": 800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"index": 562,
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Faberge",
+					"time": 800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"index": 562,
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Faberge",
+					"time": 800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"index": 562,
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Faberge",
+					"time": 800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"index": 562,
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 336,
+							"stack": 1
+						}
+					]
+				}
+				
+				
+			]
+	   }
+   ]
+   
+   
+}

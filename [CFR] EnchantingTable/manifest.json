@@ -1,0 +1,16 @@
+{
+   "Name": "EnchantingTablee (for CFR)",
+   "Author": "Undare",
+   "Description": "Jewelcraft Enchanting.",
+   "Version": "1.5.3",
+   "UniqueID": "Undare.jewelcraftEnchant",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "Undare.jewelcraftItems",
+      "IsRequired": true,
+   },
+]
+}

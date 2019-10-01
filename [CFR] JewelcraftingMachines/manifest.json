@@ -1,0 +1,16 @@
+{
+   "Name": "JewelCraftingMachines (for CFR)",
+   "Author": "Undare",
+   "Description": "Jewelcraft Machine.",
+   "Version": "1.5.3",
+   "UniqueID": "Undare.jewelcraftMachine",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "Undare.jewelcraftItems",
+      "IsRequired": true,
+   },
+]
+}

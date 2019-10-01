@@ -1,0 +1,4099 @@
+{
+   "name": "Enchanting Jewelry Table",
+   "author": "Undare",
+   "version": "1.0.5.1",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "legacy": "Undare.Jewelcrafting.enchantingtablex.json",
+		   "name": "Jewelry Enchanting Table",
+		   "description": "Used for making enchanted jewelry with the magic trapped inside of a refined quartz. (RefinedQuartz+UnenchantedJewelry)",
+		   "category": "Crafting",
+		   "crafting" : "337 1 66 4",
+		   "pulsate": false,
+		   "texture": "EnchantTable.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 6000,
+		   "readyindex": 7,
+		   "frames":6,
+		   "starter":
+			{
+				"index": 338,
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Enchanted Golden Amethyst Pin",
+					"time": 1200,
+					"quality": 0,					
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Pin",  
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Pin",
+					"time": 1200,
+					"quality": 0,					
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Pin",  
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Pin",
+					"time": 1200,
+					"quality": 1,					
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Pin",  
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Pin",
+					"time": 1200,
+					"quality": 2,					
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Pin",  
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Pin",
+					"time": 1200,
+					"quality": 4,					
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Pin",  
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Bracelet",
+					"time": 1200, 
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Bracelet",
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Bracelet",
+					"time": 1200, 
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Bracelet",
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Bracelet",
+					"time": 1200, 
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Bracelet",
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Bracelet",
+					"time": 1200, 
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Bracelet",
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Earrings",
+					"time": 1200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Earrings",
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Earrings",
+					"time": 1200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Earrings",
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Earrings",
+					"time": 1200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Earrings",
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Earrings",
+					"time": 1200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Earrings",
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Ring",
+					"time": 1200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Ring",
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Ring",
+					"time": 1200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Ring",
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Ring",
+					"time": 1200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Ring",
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Ring",
+					"time": 1200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Ring",
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Brooch",
+					"time": 1200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Brooch",
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Brooch",
+					"time": 1200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Brooch",
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Brooch",
+					"time": 1200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Brooch",
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Brooch",
+					"time": 1200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Brooch",
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Ring",
+					"time": 1200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Ring",
+							"exactquality": 0,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Ring",
+					"time": 1200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Ring",
+							"exactquality": 1,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Ring",
+					"time": 1200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Ring",
+							"exactquality": 2,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Ring",
+					"time": 1200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Ring",
+							"exactquality": 4,
+							"stack": 1
+						}
+					]
+				}, /////EnchantedFaberges
+				{
+					"item": "Enchanted Golden Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Amethyst Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Amethyst Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Topaz Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Topaz Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Aquamarine Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Aquamarine Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Emerald Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Emerald Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Ruby Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Ruby Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Enchanted Golden Diamond Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Diamond Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Aerinite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Aerinite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Aerinite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Aerinite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Aerinite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Alamite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Alamite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Alamite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Alamite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Alamite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Ancient Drum Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Ancient Drum Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Ancient Drum Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ancient Drum Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Ancient Drum Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Baryte Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Baryte Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Baryte Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Baryte Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Baryte Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Basalt Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Basalt Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Basalt Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Basalt Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Basalt Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Bixite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Bixite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Bixite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Bixite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Bixite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Calcite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Calcite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Calcite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Calcite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Calcite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Celestine Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Celestine Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Celestine Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Celestine Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Celestine Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Dolomite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Dolomite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Dolomite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dolomite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Dolomite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarf Gadget Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarf Gadget Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarf Gadget Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarf Gadget Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarf Gadget Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarvish Helm Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarvish Helm Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarvish Helm Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Dwarvish Helm Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Dwarvish Helm Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Earth Crystal Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Earth Crystal Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Earth Crystal Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Earth Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Earth Crystal Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Esperite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Esperite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Esperite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Esperite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Esperite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Fairy Stone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Fairy Stone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Fairy Stone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fairy Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Fairy Stone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Opal Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Opal Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Opal Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Opal Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Quartz Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Quartz Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Quartz Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fire Quartz Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Fire Quartz Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Fluorapatite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Fluorapatite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Fluorapatite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Fluorapatite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Fluorapatite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Frozen Tear Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Frozen Tear Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Frozen Tear Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Frozen Tear Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Frozen Tear Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Geminite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Geminite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Geminite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Geminite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Geminite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Ghost Crystal Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Ghost Crystal Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Ghost Crystal Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ghost Crystal Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Ghost Crystal Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Granite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Granite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Granite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Granite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Granite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Helvite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Helvite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Helvite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Helvite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Helvite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Hematite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Hematite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Hematite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Hematite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Hematite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Jade Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Jade Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Jade Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jade Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Jade Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Jagoite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Jagoite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Jagoite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jagoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Jagoite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Enchanted Faberge",
+					"time": 1800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Jamborite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Enchanted Faberge",
+					"time": 1800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Jamborite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Enchanted Faberge",
+					"time": 1800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Jamborite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jamborite Enchanted Faberge",
+					"time": 1800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Jamborite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Jasper Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Jasper Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Jasper Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Jasper Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Jasper Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Enchanted Faberge",
+					"time": 1900,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Kyanite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Enchanted Faberge",
+					"time": 1900,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Kyanite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Enchanted Faberge",
+					"time": 1900,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Kyanite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Kyanite Enchanted Faberge",
+					"time": 1900,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Kyanite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Lemon Stone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Lemon Stone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Lemon Stone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lemon Stone Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Lemon Stone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Limestone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Limestone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Limestone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Limestone Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Limestone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Lunarite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Lunarite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Lunarite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Lunarite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Lunarite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Enchanted Faberge",
+					"time": 1800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Malachite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Enchanted Faberge",
+					"time": 1800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Malachite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Enchanted Faberge",
+					"time": 1800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Malachite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Malachite Enchanted Faberge",
+					"time": 1800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Malachite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Marble Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Marble Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Marble Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Marble Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Marble Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Mudstone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Mudstone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Mudstone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Mudstone Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Mudstone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Nekoite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Nekoite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Nekoite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Nekoite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Nekoite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Enchanted Faberge",
+					"time": 2200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Neptunite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Enchanted Faberge",
+					"time": 2200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Neptunite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Enchanted Faberge",
+					"time": 2200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Neptunite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Neptunite Enchanted Faberge",
+					"time": 2200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Neptunite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Obsidian Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Obsidian Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Obsidian Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Obsidian Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Obsidian Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Enchanted Faberge",
+					"time": 2200,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Ocean Stone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Enchanted Faberge",
+					"time": 2200,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Ocean Stone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Enchanted Faberge",
+					"time": 2200,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Ocean Stone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Ocean Stone Enchanted Faberge",
+					"time": 2200,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Ocean Stone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Opal Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Opal Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Opal Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Opal Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Opal Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Orpiment Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Orpiment Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Orpiment Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Orpiment Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Orpiment Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Petrified Slime Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Petrified Slime Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Petrified Slime Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Petrified Slime Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Petrified Slime Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Pyrite Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Pyrite Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Pyrite Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Pyrite Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Pyrite Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Sandstone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Sandstone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Sandstone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Sandstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Sandstone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Enchanted Faberge",
+					"time": 1800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Slate Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Enchanted Faberge",
+					"time": 1800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Slate Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Enchanted Faberge",
+					"time": 1800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Slate Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Slate Enchanted Faberge",
+					"time": 1800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Slate Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Soapstone Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Soapstone Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Soapstone Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Soapstone Enchanted Faberge",
+					"time": 1800,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Soapstone Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Star Shards Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Star Shards Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Star Shards Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Star Shards Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Star Shards Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Thunder Egg Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Thunder Egg Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Thunder Egg Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Thunder Egg Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Thunder Egg Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Enchanted Faberge",
+					"time": 6000,
+					"quality": 0,
+					"materials":
+					[
+						{
+							"name": "Golden Tigerseye Faberge",
+							"exactquality": 0,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Enchanted Faberge",
+					"time": 6000,
+					"quality": 1,
+					"materials":
+					[
+						{
+							"name": "Golden Tigerseye Faberge",
+							"exactquality": 1,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Enchanted Faberge",
+					"time": 6000,
+					"quality": 2,
+					"materials":
+					[
+						{
+							"name": "Golden Tigerseye Faberge",
+							"exactquality": 2,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Golden Tigerseye Enchanted Faberge",
+					"time": 6000,
+					"quality": 4,
+					"materials":
+					[
+						{
+							"name": "Golden Tigerseye Faberge",
+							"exactquality": 4,
+							"stack": 1
+						},
+						{
+							"index": 74,
+							"stack": 1
+						}
+					]
+				}
+				
+			]
+	   }
+   ]
+   
+   
+}
