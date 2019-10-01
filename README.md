@@ -10,3 +10,5 @@ To install:
 Technical notes: The 3 files modified are FabergeBench.json / Jewelcraftingtables.json and enchantingtablex.json, adding 3 extra entries to each product of each crafting table to account for the 3 missing qualities. While i'm pretty sure i didn't miss any, if you happen to be unable to use a jewel of a specific quality on any of the machines, let me know.
 
 I also can't promise i'll update this optional download in the future if Jewelcraft goes under heavy changes, since it's a niche fix, that only users of Industrialisation will probably use. Regardless, hopefully it's useful to someone else out there, gl!
+
+Affinity #5853
