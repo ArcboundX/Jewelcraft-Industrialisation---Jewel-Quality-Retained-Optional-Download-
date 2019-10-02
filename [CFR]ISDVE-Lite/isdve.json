@@ -1,0 +1,2658 @@
+{
+  "useid": "DraLUSAD.isdve",
+  "machines": [
+		{
+		   "id": 0,
+		   "name": "Electric Furnace",
+		   "description": "Smelts regular and crushed ores at twice the speed, doesn't need coal to operate.",
+		   "category": "Crafting",
+		   "texture": "elecfurnace.png",
+		   "tileindex": 0,
+		   "pulsate":false,
+		   "frames": 5,
+		   "readyindex": 6,
+		   "crafting": "573 1 334 6 335 2 787 1",
+		   "showitem": "false",
+		   "itempos": [18,70],
+		   "itemzoom": 0.5,
+		   "production":
+			[
+				{
+					"name": "Copper Bar",
+					"index": 334,
+					"time": 20,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 378,
+							"stack": 5
+						}
+					]
+				},
+				{
+					"name": "Iron Bar",
+					"index": 335,
+					"time": 60,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 380,
+							"stack": 5
+						}
+					]
+				},
+				{
+					"name": "Gold Bar",
+					"index": 336,
+					"time": 150,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 384,
+							"stack": 5
+						}
+					]
+				},
+				{
+					"name": "Iridium Bar",
+					"index": 337,
+					"time": 240,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 386,
+							"stack": 5
+						}
+					]
+				},
+				{
+					"name": "Refined Quartz",
+					"index": 338,
+					"time": 40,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 80,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Refined Quartz",
+					"index": 338,
+					"time": 40,
+					"stack": 3,
+					"materials":
+					[
+						{
+							"index": 82,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Copper Bar",
+					"index": 334,
+					"time": 20,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 995,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Iron Bar",
+					"index": 335,
+					"time": 60,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 996,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Gold Bar",
+					"index": 336,
+					"time": 150,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 997,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Iridium Bar",
+					"index": 337,
+					"time": 240,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 998,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"name": "Refined Quartz",
+					"index": 338,
+					"time": 30,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"index": 1000,
+							"stack": 1
+						}
+					]
+				}
+			]
+	   },
+	   {
+		  "id": 1,
+		  "name": "Pulverizer",
+		  "description": "Crushing 5 ores will net you two pulverized powder, can only be used in Electric Furnaces.",
+		  "category": "Crafting",
+		  "crafting": "553 1 335 8 336 5 787 2",
+		  "texture": "pulverizer.png",
+		  "tileindex": 0,
+		  "fps": 5,
+		  "pulsate": false,
+		  "frames": 5,
+		  "production": [
+			{
+			  "name": "Pulverized Copper",
+			  "description": "Large pile of pure copper, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 995,
+			  "time": 10,
+			  "stack": 2,
+			  "texture": "pulvcopper.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 378,
+				  "stack": 5
+				}
+			  ]
+			},
+			{
+			  "name": "Pulverized Iron",
+			  "description": "Large pile of pure iron, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 996,
+			  "time": 30,
+			  "stack": 2,
+			  "texture": "pulviron.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 380,
+				  "stack": 5
+				}
+			  ]
+			},
+			{
+			  "name": "Pulverized Gold",
+			  "description": "Large pile of pure gold, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 997,
+			  "time": 50,
+			  "stack": 2,
+			  "texture": "pulvgold.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 384,
+				  "stack": 5
+				}
+			  ]
+			},
+			{
+			  "name": "Pulverized Iridium",
+			  "description": "Large pile of pure iridium, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 998,
+			  "time": 80,
+			  "stack": 2,
+			  "texture": "pulviridium.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 386,
+				  "stack": 5
+				}
+			  ]
+			},
+			{
+			  "name": "Pulverized Quartz",
+			  "description": "Large pile of pure quartz, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 1000,
+			  "time": 10,
+			  "stack": 2,
+			  "texture": "pulvquartz.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 80,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Pulverized Quartz",
+			  "description": "Large pile of pure quartz, must be smelted in an Electric Furnace.",
+			  "category": "Resource",
+			  "index": 1000,
+			  "time": 10,
+			  "stack": 6,
+			  "texture": "pulvquartz.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 82,
+				  "stack": 1
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 2,
+		  "name": "Electric Mining Drill",
+		  "description": "A very powerful mining drill, will collect materials every 12 hours, requires 1 battery to operate.",
+		  "category": "Crafting",
+		  "crafting": "337 8 338 20 335 12 787 5",
+		  "texture": "driller.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 3,
+		  "production": [
+			{
+			  "item": "random:Clay,Clay,Clay,Clay,Clay,Clay,Clay,Clay,Clay,Clay,Stone,Stone,Stone,Stone,Stone,Stone,Stone,Stone,Stone,Stone,Coal,Coal,Coal,Coal,Coal,Coal,Coal,Coal,Copper Ore,Copper Ore,Copper Ore,Copper Ore,Copper Ore,Copper Ore,Iron Ore,Iron Ore,Iron Ore,Iron Ore,Gold Ore,Gold Ore,Iridium Ore,Quartz,Quartz,Quartz,Quartz,Fire Quartz,Fire Quartz,Omni Geode",
+			  "time": 720,
+			  "stack": 25,
+			  "materials": [
+				{
+				  "index": 787,
+				  "stack": 1
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 3,
+		  "name": "Coal Power Generator",
+		  "description": "A Generator which produces battery packs, requires 5 coal to operate.",
+		  "category": "Crafting",
+		  "crafting": "335 8 338 8 767 25",
+		  "texture": "generator.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 5,
+		  "readyindex": 6,
+		  "production": [
+			{
+			  "item": "Battery Pack",
+			  "time": 840,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 382,
+				  "stack": 5
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 4,
+		  "name": "Wood Cutter",
+		  "description": "Turns one hard wood into forty regular wood.",
+		  "category": "Crafting",
+		  "fps": 2,
+		  "crafting": "709 10 388 50 335 2",
+		  "texture": "sawbench.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 5,
+		  "production": [
+			{
+			  "item": "Wood",
+			  "time": 120,
+			  "stack": 20,
+			  "materials": [
+				{
+				  "index": 709,
+				  "stack": 1
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 5,
+		  "name": "Gem Polisher",
+		  "description": "Improves quality of gems, up to iridium quality, improving quality takes longer to complete.",
+		  "category": "Crafting",
+		  "fps": 10,
+		  "crafting": "578 1 557 1 336 10 787 3",
+		  "texture": "gempolisher.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 6,
+		  "production": [
+			{
+			  "name": "Diamond",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 72,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Diamond",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 72,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Diamond",
+			  "time": 7680,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 72,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Prismatic Shard",
+			  "time": 720,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 74,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Prismatic Shard",
+			  "time": 2880,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 74,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Prismatic Shard",
+			  "time": 11520,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 74,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Topaz",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 68,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Topaz",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 68,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Topaz",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 68,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Amethyst",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 66,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Amethyst",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 66,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Amethyst",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 66,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aquamarine",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 62,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aquamarine",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 62,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aquamarine",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 62,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jade",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 70,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jade",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 70,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jade",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 70,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Emerald",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 60,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Emerald",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 60,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Emerald",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 60,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ruby",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 64,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ruby",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 64,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ruby",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 64,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aerinite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 541,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aerinite",
+			  "time": 480 ,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 541,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Aerinite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 541,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Alamite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 538,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Alamite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 538,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Alamite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 538,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ancient Drum",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 123,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ancient Drum",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 123,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ancient Drum",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 123,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Baryte",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 540,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Baryte",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 540,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Baryte",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 540,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Basalt",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 570,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Basalt",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 570,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Basalt",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 570,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Bixite",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 539,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Bixite",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 539,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Bixite",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 539,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Calcite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 542,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Calcite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 542,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Calcite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 542,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Celestine",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 566,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Celestine",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 566,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Celestine",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 566,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dolomite",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 543,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dolomite",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 543,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dolomite",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 543,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarf Gadget",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 122,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarf Gadget",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 122,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarf Gadget",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 122,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarvish Helm",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 121,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarvish Helm",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 121,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Dwarvish Helm",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 121,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Earth Crystal",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 86,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Earth Crystal",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 86,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Earth Crystal",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 86,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Esperite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 544,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Esperite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 544,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Esperite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 544,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fairy Stone",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 577,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fairy Stone",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 577,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fairy Stone",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 577,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Opal",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 565,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Opal",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 565,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Opal",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 565,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Quartz",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 82,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Quartz",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 82,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fire Quartz",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 82,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fluorapatite",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 545,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fluorapatite",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 545,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Fluorapatite",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 545,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Frozen Tear",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 84,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Frozen Tear",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 84,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Frozen Tear",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 84,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Geminite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 546,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Geminite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 546,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Geminite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 546,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ghost Crystal",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 561,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ghost Crystal",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 561,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ghost Crystal",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 561,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Granite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 569,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Granite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 569,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Granite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 569,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Helvite",
+			  "time": 300,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 547,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Helvite",
+			  "time": 1200,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 547,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Helvite",
+			  "time": 4800,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 547,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Hematite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 573,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Hematite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 573,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Hematite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 573,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jagoite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 549,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jagoite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 549,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jagoite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 549,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jamborite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 548,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jamborite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 548,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jamborite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 548,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jasper",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 563,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jasper",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 563,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Jasper",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 563,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Kyanite",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 550,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Kyanite",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 550,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Kyanite",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 550,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lemon Stone",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 554,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lemon Stone",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 554,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lemon Stone",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 554,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Limestone",
+			  "time": 60,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 571,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Limestone",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 571,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Limestone",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 571,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lunarite",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 551,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lunarite",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 551,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Lunarite",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 551,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Malachite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 552,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Malachite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 552,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Malachite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 552,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Marble",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 567,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Marble",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 567,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Marble",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 567,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Mudstone",
+			  "time": 60,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 574,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Mudstone",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 574,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Mudstone",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 574,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Nekoite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 555,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Nekoite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 555,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Nekoite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 555,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Neptunite",
+			  "time": 300,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 553,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Neptunite",
+			  "time": 1200,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 553,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Neptunite",
+			  "time": 4800,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 553,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Obsidian",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 575,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Obsidian",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 575,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Obsidian",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 575,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ocean Stone",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 560,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ocean Stone",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 560,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Ocean Stone",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 560,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Opal",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 564,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Opal",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 564,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Opal",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 564,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Orpiment",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 556,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Orpiment",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 556,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Orpiment",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 556,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Petrified Slime",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 557,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Petrified Slime",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 557,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Petrified Slime",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 557,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Pyrite",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 559,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Pyrite",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 559,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Pyrite",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 559,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Sandstone",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 568,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Sandstone",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 568,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Sandstone",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 568,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Slate",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 576,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Slate",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 576,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Slate",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 576,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Soapstone",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 572,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Soapstone",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 572,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Soapstone",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 572,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Star Shards",
+			  "time": 300,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 578,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Star Shards",
+			  "time": 1200,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 578,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Star Shards",
+			  "time": 4800,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 578,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Thunder Egg",
+			  "time": 120,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 558,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Thunder Egg",
+			  "time": 480,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 558,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Thunder Egg",
+			  "time": 1920,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 558,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Tigerseye",
+			  "time": 240,
+			  "stack": 1,
+			  "quality": 1,
+			  "materials": [
+				{
+				  "index": 562,
+				  "exactquality": 0,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Tigerseye",
+			  "time": 960,
+			  "stack": 1,
+			  "quality": 2,
+			  "materials": [
+				{
+				  "index": 562,
+				  "exactquality": 1,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "name": "Tigerseye",
+			  "time": 3840,
+			  "stack": 1,
+			  "quality": 4,
+			  "materials": [
+				{
+				  "index": 562,
+				  "exactquality": 2,
+				  "stack": 1
+				}
+			  ]
+			},
+		  ]
+		},
+	    {
+		  "id": 6,
+		  "name": "Rock Smasher",
+		  "description": "Can break down 5 stone for a chance of ore, but will make Gravel instead, can also process any geodes for minerals or artefacts.",
+		  "category": "Crafting",
+		  "fps": 10,
+		  "crafting": "575 1 338 5 334 3 787 1",
+		  "texture": "crusher.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 5,
+		  "readyindex": 6,
+		  "production": [
+			{
+			  "item": "random:Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Coal,Copper Ore,Coal,Iron Ore,Coal,Gold Ore,Coal,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path,Gravel Path",
+			  "time": 10,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 390,
+				  "stack": 5
+				}
+			  ]
+			},
+			{
+			  "item": "random:Earth Crystal,Alamite,Calcite,Jamborite,Jagoite,Malachite,Nekoite,Orpiment,Thunder Egg,Celestine,Sandstone,Granite,Limestone,Mudstone,Slate,Petrified Slime,Dwarvish Helm,Earth Crystal",
+			  "time": 10,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 535,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "item": "random:Frozen Tear,Opal,Aerinite,Esperite,Fluorapatite,Geminite,Kyanite,Lunarite,Pyrite,Ocean Stone,Ghost Crystal,Marble,Soapstone,Hematite,Fairy Stone,Ancient Drum,Frozen Tear",
+			  "time": 10,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 536,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "item": "random:Fire Quartz,Tigerseye,Fire Opal,Baryte,Dolomite,Helvite,Lemon Stone,Jasper,Basalt,Obsidian,Star Shards,Bixite,Neptunite,Dwarf Gadget,Fire Quartz",
+			  "time": 10,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 537,
+				  "stack": 1
+				}
+			  ]
+			},
+			{
+			  "item": "random:Tigerseye,Fire Opal,Baryte,Dolomite,Helvite,Lemon Stone,Jasper,Basalt,Obsidian,Star Shards,Bixite,Neptunite,Opal,Aerinite,Esperite,Fluorapatite,Geminite,Kyanite,Lunarite,Pyrite,Ocean Stone,Ghost Crystal,Marble,Soapstone,Hematite,Fairy Stone,Alamite,Calcite,Jamborite,Jagoite,Malachite,Nekoite,Orpiment,Thunder Egg,Celestine,Sandstone,Granite,Limestone,Mudstone,Slate,Petrified Slime,Earth Crystal,Earth Crystal,Dwarvish Helm,Frozen Tear,Frozen Tear,Ancient Drum,Fire Quartz,Fire Quartz,Dwarf Gadget,Tigerseye,Fire Opal,Baryte,Dolomite,Helvite,Lemon Stone,Jasper,Basalt,Obsidian,Star Shards,Bixite,Neptunite,Opal,Aerinite,Esperite,Fluorapatite,Geminite,Kyanite,Lunarite,Pyrite,Ocean Stone,Ghost Crystal,Marble,Soapstone,Hematite,Fairy Stone,Alamite,Calcite,Jamborite,Jagoite,Malachite,Nekoite,Orpiment,Thunder Egg,Celestine,Sandstone,Granite,Limestone,Mudstone,Slate,Petrified Slime,Earth Crystal,Earth Crystal,Dwarvish Helm,Frozen Tear,Frozen Tear,Ancient Drum,Fire Quartz,Fire Quartz,Dwarf Gadget,Prismatic Shard,Tigerseye,Fire Opal,Baryte,Dolomite,Helvite,Lemon Stone,Jasper,Basalt,Obsidian,Star Shards,Bixite,Neptunite,Opal,Aerinite,Esperite,Fluorapatite,Geminite,Kyanite,Lunarite,Pyrite,Ocean Stone,Ghost Crystal,Marble,Soapstone,Hematite,Fairy Stone,Alamite,Calcite,Jamborite,Jagoite,Malachite,Nekoite,Orpiment,Thunder Egg,Celestine,Sandstone,Granite,Limestone,Mudstone,Slate,Petrified Slime,Earth Crystal,Earth Crystal,Dwarvish Helm,Frozen Tear,Frozen Tear,Ancient Drum,Fire Quartz,Fire Quartz,Dwarf Gadget,Tigerseye,Fire Opal,Baryte,Dolomite,Helvite,Lemon Stone,Jasper,Basalt,Obsidian,Star Shards,Bixite,Neptunite,Opal,Aerinite,Esperite,Fluorapatite,Geminite,Kyanite,Lunarite,Pyrite,Ocean Stone,Ghost Crystal,Marble,Soapstone,Hematite,Fairy Stone,Alamite,Calcite,Jamborite,Jagoite,Malachite,Nekoite,Orpiment,Thunder Egg,Celestine,Sandstone,Granite,Limestone,Mudstone,Slate,Petrified Slime,Earth Crystal,Earth Crystal,Dwarvish Helm,Frozen Tear,Frozen Tear,Ancient Drum,Fire Quartz,Fire Quartz,Dwarf Gadget",
+			  "time": 10,
+			  "stack": 1,
+			  "materials": [
+				{
+				  "index": 749,
+				  "stack": 1
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 7,
+		  "name": "Solar Generator",
+		  "description": "A unique generator which requires sunlight to operate, doesn't work whiles indoors or at night.",
+		  "category": "Crafting",
+		  "crafting": "551 1 80 10 82 8 335 12 787 1",
+		  "texture": "solargen.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 5,
+		  "workconditions": "LC caller.location.IsOutdoors and (not Game1.isRaining) and (Game1.timeOfDay < 1900)",
+          "conditionalanimation": true,
+		  "readyindex": 6,
+		  "production": [
+			{
+			  "item": "Battery Pack",
+			  "time": 1200
+			}
+		  ]
+		},
+	    {
+		  "id": 8,
+		  "name": "Hay Bin",
+		  "description": "Placing Fiber in this will slowly convert into Hay.",
+		  "category": "Crafting",
+		  "crafting": "335 8 86 2 709 10 787 1",
+		  "texture": "haybin.png",
+		  "tileindex": 0,
+		  "pulsate": true,
+		  "frames": 1,
+		  "readyindex": 2,
+		  "production": [
+			{
+			  "item": "Hay",
+			  "time": 1200,
+			  "stack": 10,
+			  "materials": [
+				{
+				  "index": 771,
+				  "stack": 10
+				}
+			  ]
+			}
+		  ]
+		},
+	    {
+		  "id": 9,
+		  "name": "Ceramic Kiln",
+		  "description": "Turn clay into profitable Bricks (Because you can't use Modded items in recipes), needs coal as fuel.",
+		  "category": "Crafting",
+		  "crafting": "569 1 390 100 330 20",
+		  "texture": "ceramickiln.png",
+		  "tileindex": 0,
+		  "pulsate": false,
+		  "frames": 5,
+		  "readyindex": 6,
+		  "starter": {
+			"index": 382
+		  },
+		  "production": [
+			{
+			  "name": "Fired Brick",
+			  "description": "A Fired brick, very useful for home construction, not so useful in vanilla recipes.",
+			  "category": "Resource",
+			  "index": 999,
+			  "time":  30,
+			  "price": "original + (input * 6)",
+			  "stack": 1,
+			  "texture": "brick.png",
+			  "tileindex": 0,
+			  "materials": [
+				{
+				  "index": 330,
+				  "stack": 2
+				}
+			  ]
+			}
+		  ]
+		}
+	  ]
+	}
