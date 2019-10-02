@@ -18,7 +18,8 @@ It has recently been pointed out to me that using "quality= -1" instead of creat
 
 It goes without saying, this modification is meant for Jewelcraft ver. 1.5.3, and the latest Industrialisation build (19/sept) if these mods change in the future, the extra entries will have to be added all over again to the new ver. files. Regardless, even if i don't myself, anyone with a text editor can do it.
 
-Hopefully it's useful to someone else out there, it goes without saying all credit belongs to the mod authors, this is just a modification i conceived for personal use, but here it is in case someone else gets a kick out of it.
+Hopefully this is useful to someone else out there. 
+It goes without saying that all credit belongs solely to the mod authors, this is just a modification i conceived for personal use, but here it is in case someone else gets a kick out of it.
 Gl
 
 Affinity #5853
