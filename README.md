@@ -14,7 +14,7 @@ To install:
 
 The 3 files modified for Jewelcraft are FabergeBench.json / Jewelcraftingtables.json and enchantingtablex.json, adding 3 extra entries to each product of each crafting table to account for the 3 missing qualities, and the file modified for Industrialisation is isdve.json, adding all missing artifacts/minerals to the Gem Polisher. While i'm pretty sure i didn't miss any, i can't test this for all possible entries, so if you happen to be unable to use a jewel of a specific quality on any of the machines, let me know so that i can fix it. Still, pretty sure each one is accounted for.
 
-It has recently been pointed out to me that using "quality= -1" instead of creating entries for each mineral/artifact can help streamline everything, which would allow for much easier updating in the future. However at the present this solution has problems, so it's up for grabs for anyone knowledgeable with CFR willing to give it a shot.
+It has recently been pointed out to me that using "quality= -1" instead of creating entries for each mineral/artifact can help streamline everything, which would allow for much easier updating in the future. However at the present this solution has problems for machines with more than 1 material and starter, so it's up for grabs for anyone knowledgeable with CFR willing to give it a shot.
 
 It goes without saying, this modification is meant for Jewelcraft ver. 1.5.3, and the latest Industrialisation build (19/sept) if these mods change in the future, the extra entries will have to be added all over again to the new ver. files. Regardless, even if i don't myself, anyone with a text editor can do it.
 
